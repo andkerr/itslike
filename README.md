@@ -1,5 +1,5 @@
-### MHacks14 Project
-====================
+MHacks14 Project
+================
 
 To get the starter files:
 
