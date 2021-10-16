@@ -7,7 +7,6 @@ To get the starter files:
     git clone https://github.com/andkerr/mhacks14.git
 
     cd mhacks14
-
 ```
 
 To get the flask code running:
@@ -20,7 +19,6 @@ To get the flask code running:
     cd flask-api
 
     flask run
-
 ```
 To get the React fronted started, in a separate terminal window run:
 ```
