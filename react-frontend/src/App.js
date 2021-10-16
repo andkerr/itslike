@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
+import RandButton from './rand-button';
 
 function App() {
     const [placeholder, setPlaceholder] = useState('Flask is not connected');
@@ -12,9 +13,8 @@ function App() {
     
     return (
         <div className="App">
-        <header className="App-header">
             {placeholder}
-        </header>
+            <RandButton />
         </div>
     );
 }
