@@ -1,0 +1,27 @@
+.perm-text {
+    font-size: 40px;
+}
+
+.rand-text {
+    font-size: 50px;
+    margin: 10px 50px 30px 50px;
+    padding: 0px 0px 3px 0px;
+    border-bottom: 1px grey solid;
+    width: 500px;
+    text-align: center;
+}
+
+.rand-button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 30px 0px 0px 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(108, 108, 168);
+    color: white;
+}
+
+.rand-button:hover {
+    background-color: blue;
+}

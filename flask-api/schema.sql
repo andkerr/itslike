@@ -43,20 +43,20 @@ INSERT INTO objects (
 )
 VALUES
     (
-        "Kittens"
+        "kittens"
     ),
     (
-        "Blockchain"
+        "blockchain"
     ),
     (
-        "Machine Learning"
+        "machine learning"
     ),
     (
-        "Disruptive Innovation"
+        "disruptive innovation"
     ),
     (
-        "Oreo Cookies"
+        "Oreo cookies"
     ),
     (
-        "Parking Spots"
+        "parking spots"
     );
