@@ -5,11 +5,15 @@ from .db import get_db
 
 bp = Blueprint('api', __name__, url_prefix="")
 
-@bp.route('/hello')
+@bp.route('/')
+def index():
+    return bp.send_static_file('index.html')
+
+@bp.route('api/hello')
 def hello():
     return {'response':"Flask is connected. We are live!!"}
 
-@bp.route('/random')
+@bp.route('api/random')
 def return_random():
     db = get_db()
 
@@ -56,10 +60,6 @@ def return_random():
             ' VALUES (?, ?)', (company_index, obj_index,)
         )
         db.commit()
-
-    # debugging
-    print(company_index, prev_company_index)
-    print(obj_index, prev_obj_index)
 
     return {
         'rand1': company,

@@ -38,9 +38,6 @@ VALUES
         "Airbnb"
     ),
     (
-        "rock climbing"
-    ),
-    (
         "TikTok"
     );
 
@@ -71,4 +68,7 @@ VALUES
     ),
     (
         "postmodernism"
+    ),
+    (
+        "rock climbing"
     );
