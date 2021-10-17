@@ -35,4 +35,8 @@ def create_app(test_config=None):
     from . import api
     app.register_blueprint(api.bp)
 
+    @app.route("/")
+    def index():
+        return app.send_static_file("index.html")
+
     return app

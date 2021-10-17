@@ -3,17 +3,13 @@ from random import randrange
 
 from .db import get_db
 
-bp = Blueprint('api', __name__, url_prefix="")
+bp = Blueprint('api', __name__, url_prefix="/api")
 
-@bp.route('/')
-def index():
-    return bp.send_static_file('index.html')
-
-@bp.route('api/hello')
+@bp.route('/hello')
 def hello():
     return {'response':"Flask is connected. We are live!!"}
 
-@bp.route('api/random')
+@bp.route('/random')
 def return_random():
     db = get_db()
 
