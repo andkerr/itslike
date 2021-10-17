@@ -4,6 +4,8 @@ It'sLike - Startup Ideas
 To download the project files:
 ```
 git clone https://github.com/andkerr/itslike.git
+
+cd itslike
 ```
 
 Install dependencies:
