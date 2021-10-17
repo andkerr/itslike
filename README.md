@@ -1,29 +1,27 @@
-MHacks14 Project
-================
+It'sLike - Startup Ideas
+========================
 
-To get the starter files:
+To download the project files:
+```
+git clone https://github.com/andkerr/itslike.git
 
 ```
-    git clone https://github.com/andkerr/mhacks14.git
 
-    cd mhacks14
+Install dependencies:
+```
+python3 -m pip install -r requirements.txt
 ```
 
-To get the flask code running:
+Run the frontend code (requires Node.js and npm):
 ```
-    python3 -m venv venv    # virtual environment setup
-
-    python3 -m pip install -r requirements.txt
-
-    cd flask-api
-
-    flask run
-```
-To get the React fronted started, in a separate terminal window run:
-```
-cd react-fronted
+cd react-frontend
 
 npm start
 ```
 
-Visit localhost:3000 to check out our page.
+Run the Flask API. In a separate terminal, from the repo root:
+```
+flask run
+```
+
+Visit localhost:3000 to check out It'sLike!
