@@ -1,1 +1,1 @@
-web: gunicorn flask-api:create_app()
+web: gunicorn "flask-api:create_app()"
