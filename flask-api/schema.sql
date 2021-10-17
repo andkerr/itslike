@@ -26,7 +26,7 @@ VALUES
         "Dropbox"
     ),
     (
-        "McDonalds"
+        "McDonald's"
     ),
     (
         "Spotify"
@@ -36,6 +36,12 @@ VALUES
     ),
     (
         "Airbnb"
+    ),
+    (
+        "rock climbing"
+    ),
+    (
+        "TikTok"
     );
 
 INSERT INTO objects (
@@ -59,4 +65,10 @@ VALUES
     ),
     (
         "parking spots"
+    ),
+    (
+        "progammers"
+    ),
+    (
+        "postmodernism"
     );

@@ -1,3 +1,2 @@
-googlemaps
 Flask
 python-dotenv
