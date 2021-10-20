@@ -5,10 +5,6 @@ from .db import get_db
 
 bp = Blueprint('api', __name__, url_prefix="/api")
 
-@bp.route('/hello')
-def hello():
-    return {'response':"Flask is connected. We are live!!"}
-
 @bp.route('/random')
 def return_random():
     db = get_db()

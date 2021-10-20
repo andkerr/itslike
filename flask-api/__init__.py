@@ -2,15 +2,9 @@ import os
 
 from flask import Flask
 
-
 def create_app(test_config=None):
     # create and configure the app
-    app = Flask(
-        __name__,
-        instance_relative_config=True,
-        static_folder='../build',
-        static_url_path='/'
-    )
+    app = Flask(__name__, instance_relative_config=True)
     app.config.from_mapping(
         SECRET_KEY='dev',
         DATABASE=os.path.join(app.instance_path, 'api.sqlite'),
@@ -37,6 +31,6 @@ def create_app(test_config=None):
 
     @app.route("/")
     def index():
-        return app.send_static_file("index.html")
+        return "The Flask API backend is running!"
 
     return app
