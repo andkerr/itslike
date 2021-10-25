@@ -11,7 +11,7 @@ class RandGenerator extends React.Component {
     }
 
     genRandom() {
-        fetch('api/random')
+        fetch('https://itslike-api.herokuapp.com/api/random')
          .then(response => response.json())
          .then(data => {
              this.setState({
